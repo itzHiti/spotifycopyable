@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Theme.SpotifyCopyable" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.SpotifyCopyable.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/spotify_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.SpotifyCopyable</item>
+    </style>
+
+</resources>
